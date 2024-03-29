@@ -1,0 +1,130 @@
+/* header */
+.header{
+    height: 180px;
+    width: 100%;
+    background-color: #17171A;
+    display: flex;
+    justify-content: center;
+}
+.inner-header{
+    height: 100%;
+    width: 60%;
+}
+.inner-header > h1{
+    text-align: center;
+    font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.inner-header > h1 > span{
+    color: #E07B67;
+}
+.search-wrapper{
+    height: 40px;
+    width: 100%;
+    background-color: #252529;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    transition: 0.1s all;
+}
+.search-wrapper.focused{
+    outline: 2px solid #E07B67;
+}
+.search-bar{
+    width: 100%;
+    height: 100%;
+}
+.search-bar > input{
+    width: 100%;
+    height: 100%;
+    padding-left: 3px;
+    background-color: #252529;
+    border: none;
+    color: #FFF;
+}
+.search-bar > input:focus{
+    outline: none;
+}
+.magni-glass{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.magni-glass > img{
+    height: 23px;
+}
+
+/* main */
+.main{
+    width: 60%;
+    height: auto;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.card-wrapper{
+    width: 100%;
+    height: 170px;
+    background-color: #252529;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: 1px solid #3f3f47;
+}
+.card-inner{
+    width: 93%;
+    height: 100%;
+}
+.card-wrapper:hover{
+    outline: 2px solid #E07B67;
+}
+.card-header{
+    margin-top: 25px;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-header img{
+    height: 20px;
+}
+.card-header span{
+    color: #E07B67;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.card-title{
+    color: #E07B67;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: #FFF;
+    margin-top: 18px;
+    font-size: 17px;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Define o número mínimo de linhas a serem exibidas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card-text{
+    color: #E07B67;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: #AFABB6;
+    margin-top: 15px;
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Define o número mínimo de linhas a serem exibidas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
