@@ -1,6 +1,6 @@
 <div align="center">
     <h3>Frontend Challenges - Codelândia</h3>
-    <p>A series of frontend challenges made by the Codelandia community created and supported by Iuri Silva, more than 40 prototypes developed in Figma as a reference for creating pages, using technologies such as HTML, CSS, JS and the like, and here are some of my solutions</p>
+    <p>A series of frontend challenges made by the Codelandia community created and supported by <a href="https://github.com/iuricode">Iuri Silva</a>, more than 40 prototypes developed in Figma as a reference for creating pages, using technologies such as HTML, CSS, JS and the like, and here are some of my solutions</p>
     <img height="350px" src="./doc-assets/default.png">
 </div>
 
