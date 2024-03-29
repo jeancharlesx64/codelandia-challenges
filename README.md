@@ -25,6 +25,9 @@ Do you want to see any of my solutions? Get started by following the instruction
           - icon
       - index.html
 
+### How to find the challenges?
+You can access the challenges via the [Discord Community](https://discord.com/invite/QevDJqCzaY), or directly through the referenced prototypes on [Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=0-1&mode=design&t=CyFU3aX9OGmsx10L-0), good studies ;)
+
 
 
 
